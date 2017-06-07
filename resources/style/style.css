@@ -1,0 +1,43 @@
+body{
+ text-align: center;
+ font-family: Helvetica;
+}
+
+h1{
+  font-size: 70px;
+  color: white;
+  font-weight: bold;
+  width: auto;
+  height: 280px;
+}
+
+h2{
+  font-size: 23px;
+  font-weight: bold;
+}
+
+h3{
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.subhead{
+  color: white;
+}
+
+p{
+  font-size: 14px
+}
+
+a{
+  color: white;
+  font-size: 18px;
+  z-index: -1
+}
+
+.copyright{
+  text-align: left;
+  font-size: 11px;
+  background-color: dimgray;
+  color: white;
+}
