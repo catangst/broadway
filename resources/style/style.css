@@ -8,11 +8,10 @@ h1{
   color: white;
   font-weight: bold;
   width: auto;
-  height: 280px;
 }
 
 h2{
-  font-size: 23px;
+  font-size: 32px;
   font-weight: bold;
 }
 
@@ -20,22 +19,32 @@ h3{
   font-size: 23px;
   font-weight: bold;
 }
-
-.subhead{
+a{
   color: white;
 }
 
 p{
   font-size: 14px
 }
-
-a{
-  color: white;
-  font-size: 18px;
-  z-index: -1
+.header{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
+  background-repeat: no-repeat;
 }
 
-.copyright{
+.header a{
+  display: block;
+  font-size: 18px;
+  font-family: Helvetica
+  height: 25px;
+}
+
+.subhead{
+  color: white;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
+  height: 25px;
+}
+
+.footer{
   text-align: left;
   font-size: 11px;
   background-color: dimgray;
